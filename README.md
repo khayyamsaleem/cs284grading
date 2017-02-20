@@ -3,7 +3,7 @@ grading scripts for cs284 s2017
 
 to run, set up directory like:
 
-grading
+<code>grading</code>
 <ul> 
 <li> <code>hw1</code>
 <ul>
