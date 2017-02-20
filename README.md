@@ -3,7 +3,7 @@ grading scripts for cs284 s2017
 
 to run, set up directory like:
 
-<li><code>grading</code></li>
+grading
 <ul> 
 <li> <code>hw1</code>
 <ul>
@@ -21,7 +21,7 @@ to run, set up directory like:
 
 <code>grade.py</code> can be modified to only apply your grading script to your students
 
-<code>grade.py<code> can be run with:
+<code>grade.py</code> can be run with:
 
 <code>./grade.py</code>
 
@@ -29,7 +29,7 @@ inside <code>grading</code> directory, after grader performs
 
 <code>chmod +x grade.py</code>
 
-Output for all files is logged in <code>final.txt<code> in <code>grading</code>. Individual output is in <code>toGrade/studentname/output.txt</code>
+Output for all files is logged in <code>final.txt</code> in <code>grading</code>. Individual output is in <code>toGrade/studentname/output.txt</code>
 
 When done, optionally remove all garbage with:
 
