@@ -5,10 +5,10 @@ to run, set up directory like:
 
 # Project tree
 
-`-- ./hw1
-    |-- ./submissions.zip
-    |-- ./grade.py
-    `-- ./TestScript.java
+`-- ./hw1\n
+    |-- ./submissions.zip\n
+    |-- ./grade.py\n
+    `-- ./TestScript.java\n
     
 TestScript.java will be different for each hw
 grade.py can be modified to only apply your grading script to your students
