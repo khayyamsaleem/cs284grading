@@ -3,12 +3,19 @@ grading scripts for cs284 s2017
 
 to run, set up directory like:
 
-# Project tree
-
-`-- ./hw1\n
-    |-- ./submissions.zip\n
-    |-- ./grade.py\n
-    `-- ./TestScript.java\n
+grading
+<ul> 
+<li> hw1
+<ul>
+<li>grade.py</li>
+<li>TestScript.java</li>
+<li>submissions.zip</li>
+</ul>
+</li>
+<li> hw2 </li>
+<ul><li>same as hw1</li></ul>
+<li> etc ... </li>
+</ul>
     
 TestScript.java will be different for each hw
 grade.py can be modified to only apply your grading script to your students
