@@ -18,6 +18,7 @@ grading
 </ul>
     
 TestScript.java will be different for each hw
+
 grade.py can be modified to only apply your grading script to your students
 
 grade.py can be run with:
@@ -29,6 +30,7 @@ inside "grading" directory, after grader performs
 chmod +x grade.py
 
 Output for all files is logged in final.txt in grading. Individual output is in
+
 toGrade/<studentname>/output.txt
 
 When done, optionally remove all garbage with:
