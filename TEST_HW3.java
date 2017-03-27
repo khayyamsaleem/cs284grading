@@ -26,22 +26,22 @@ public class TEST_HW3{
         //testing add at index
         System.out.println("Testing add at index");
         try {
-            assert q.add("scared", 5);
+            assert q.add(5,"scared");
             assert p.add(5, 5);
         } catch (Exception e){
             System.out.println("failed add at index size");
         }
 
         try{
-            assert q.add("jealous", 0);
-            assert p.add(-1, 0);
+            assert q.add(0, "jealous");
+            assert p.add(0, -1);
         } catch (Exception e){
             System.out.println("failed add at index 0");
         }
 
         try{
-            assert q.add("shy", 3);
-            assert p.add(7, 3);
+            assert q.add(3, "shy");
+            assert p.add(3, 7);
         } catch (Exception e){
             System.out.println("failed add at index");
         }
